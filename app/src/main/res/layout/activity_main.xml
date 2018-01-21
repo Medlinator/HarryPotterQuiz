@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#941B08"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/harry_potter"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/title"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="56sp" />
+
+        <View
+            android:layout_width="275dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/harryPotterYellow" />
+
+        <TextView
+            android:id="@+id/question_one_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/harry_potter"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="25dp"
+            android:text="@string/question_one"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/question_one_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <RadioButton
+                android:id="@+id/question_one_radio_button_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_one_radio_button_one"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_one_radio_button_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_one_radio_button_two"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_one_radio_button_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_one_radio_button_three"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_two_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/harry_potter"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="15dp"
+            android:text="@string/question_two"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/question_two_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <RadioButton
+                android:id="@+id/question_two_radio_button_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_two_radio_button_one"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_two_radio_button_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_two_radio_button_two"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_two_radio_button_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_two_radio_button_three"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_three_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/harry_potter"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="15dp"
+            android:text="@string/question_three"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/question_three_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <RadioButton
+                android:id="@+id/question_three_radio_button_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_three_radio_button_one"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_three_radio_button_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_three_radio_button_two"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_three_radio_button_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_three_radio_button_three"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_four_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/harry_potter"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="15dp"
+            android:text="@string/question_four"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/question_four_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <RadioButton
+                android:id="@+id/question_four_radio_button_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_four_radio_button_one"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_four_radio_button_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_four_radio_button_two"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_four_radio_button_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_four_radio_button_three"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_five_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/harry_potter"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="15dp"
+            android:text="@string/question_five"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="24sp" />
+
+        <CheckBox
+            android:id="@+id/question_five_checkbox_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/harry_potter"
+            android:text="@string/question_five_check_box_one"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/question_five_checkbox_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/harry_potter"
+            android:text="@string/question_five_check_box_two"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/question_five_checkbox_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/harry_potter"
+            android:text="@string/question_five_check_box_three"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/question_five_checkbox_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/harry_potter"
+            android:text="@string/question_five_check_box_four"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/question_six_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/harry_potter"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="15dp"
+            android:text="@string/question_six"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/question_six_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <RadioButton
+                android:id="@+id/question_six_radio_button_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_six_radio_button_one"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_six_radio_button_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_six_radio_button_two"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_six_radio_button_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_six_radio_button_three"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_seven_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/harry_potter"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="15dp"
+            android:text="@string/question_seven"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/question_seven_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <RadioButton
+                android:id="@+id/question_seven_radio_button_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_seven_radio_button_one"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_seven_radio_button_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_seven_radio_button_two"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_seven_radio_button_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_seven_radio_button_three"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_eight_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/harry_potter"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="15dp"
+            android:text="@string/question_eight"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/question_eight_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <RadioButton
+                android:id="@+id/question_eight_radio_button_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_eight_radio_button_one"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_eight_radio_button_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_eight_radio_button_two"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_eight_radio_button_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_eight_radio_button_three"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_nine_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/harry_potter"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="15dp"
+            android:text="@string/question_nine"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/question_nine_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <RadioButton
+                android:id="@+id/question_nine_radio_button_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_nine_radio_button_one"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_nine_radio_button_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_nine_radio_button_two"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/question_nine_radio_button_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/harry_potter"
+                android:text="@string/question_nine_radio_button_three"
+                android:textColor="@color/harryPotterYellow"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_ten_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/harry_potter"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="15dp"
+            android:text="@string/question_ten"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/question_ten_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/harry_potter"
+            android:hint="@string/question_ten_hint_text"
+            android:inputType="textCapWords"
+            android:textColor="@color/harryPotterYellow"
+            android:textColorHint="@color/harryPotterYellow"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/my_button"
+            android:fontFamily="@font/harry_potter"
+            android:onClick="submitQuiz"
+            android:text="@string/submit_button_text"
+            android:textColor="@color/harryPotterYellow"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
