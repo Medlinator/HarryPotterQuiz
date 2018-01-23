@@ -10,6 +10,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/harry_potter_emblem_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/harry_potter_emblem" />
+
         <TextView
             android:id="@+id/title_text_view"
             android:layout_width="match_parent"
@@ -37,8 +44,8 @@
             android:paddingRight="25dp"
             android:paddingTop="25dp"
             android:text="@string/question_one"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="34sp" />
 
         <RadioGroup
             android:id="@+id/question_one_radio_group"
@@ -53,8 +60,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_one_radio_button_one"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_one_radio_button_a"
@@ -62,8 +69,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_one_radio_button_two"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_one_radio_button_c"
@@ -71,8 +78,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_one_radio_button_three"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
         </RadioGroup>
 
         <TextView
@@ -86,8 +93,8 @@
             android:paddingRight="25dp"
             android:paddingTop="15dp"
             android:text="@string/question_two"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="34sp" />
 
         <RadioGroup
             android:id="@+id/question_two_radio_group"
@@ -102,8 +109,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_two_radio_button_one"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_two_radio_button_b"
@@ -111,8 +118,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_two_radio_button_two"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_two_radio_button_c"
@@ -120,8 +127,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_two_radio_button_three"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
         </RadioGroup>
 
         <TextView
@@ -135,8 +142,8 @@
             android:paddingRight="25dp"
             android:paddingTop="15dp"
             android:text="@string/question_three"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="34sp" />
 
         <RadioGroup
             android:id="@+id/question_three_radio_group"
@@ -151,8 +158,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_three_radio_button_one"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_three_radio_button_b"
@@ -160,8 +167,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_three_radio_button_two"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_three_radio_button_c"
@@ -169,8 +176,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_three_radio_button_three"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
         </RadioGroup>
 
         <TextView
@@ -184,8 +191,8 @@
             android:paddingRight="25dp"
             android:paddingTop="15dp"
             android:text="@string/question_four"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="34sp" />
 
         <RadioGroup
             android:id="@+id/question_four_radio_group"
@@ -200,8 +207,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_four_radio_button_one"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_four_radio_button_b"
@@ -209,8 +216,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_four_radio_button_two"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_four_radio_button_c"
@@ -218,8 +225,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_four_radio_button_three"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
         </RadioGroup>
 
         <TextView
@@ -233,8 +240,8 @@
             android:paddingRight="25dp"
             android:paddingTop="15dp"
             android:text="@string/question_five"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="34sp" />
 
         <CheckBox
             android:id="@+id/question_five_checkbox_a"
@@ -244,8 +251,8 @@
             android:layout_marginRight="25dp"
             android:fontFamily="@font/harry_potter"
             android:text="@string/question_five_check_box_one"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="20sp" />
+            android:textColor="@color/white"
+            android:textSize="24sp" />
 
         <CheckBox
             android:id="@+id/question_five_checkbox_b"
@@ -255,8 +262,8 @@
             android:layout_marginRight="25dp"
             android:fontFamily="@font/harry_potter"
             android:text="@string/question_five_check_box_two"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="20sp" />
+            android:textColor="@color/white"
+            android:textSize="24sp" />
 
         <CheckBox
             android:id="@+id/question_five_checkbox_c"
@@ -266,8 +273,8 @@
             android:layout_marginRight="25dp"
             android:fontFamily="@font/harry_potter"
             android:text="@string/question_five_check_box_three"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="20sp" />
+            android:textColor="@color/white"
+            android:textSize="24sp" />
 
         <CheckBox
             android:id="@+id/question_five_checkbox_d"
@@ -277,8 +284,8 @@
             android:layout_marginRight="25dp"
             android:fontFamily="@font/harry_potter"
             android:text="@string/question_five_check_box_four"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="20sp" />
+            android:textColor="@color/white"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/question_six_text_view"
@@ -291,8 +298,8 @@
             android:paddingRight="25dp"
             android:paddingTop="15dp"
             android:text="@string/question_six"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="34sp" />
 
         <RadioGroup
             android:id="@+id/question_six_radio_group"
@@ -307,8 +314,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_six_radio_button_one"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_six_radio_button_b"
@@ -316,8 +323,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_six_radio_button_two"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_six_radio_button_c"
@@ -325,8 +332,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_six_radio_button_three"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
         </RadioGroup>
 
         <TextView
@@ -340,8 +347,8 @@
             android:paddingRight="25dp"
             android:paddingTop="15dp"
             android:text="@string/question_seven"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="34sp" />
 
         <RadioGroup
             android:id="@+id/question_seven_radio_group"
@@ -356,8 +363,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_seven_radio_button_one"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_seven_radio_button_b"
@@ -365,8 +372,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_seven_radio_button_two"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_seven_radio_button_c"
@@ -374,8 +381,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_seven_radio_button_three"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
         </RadioGroup>
 
         <TextView
@@ -389,8 +396,8 @@
             android:paddingRight="25dp"
             android:paddingTop="15dp"
             android:text="@string/question_eight"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="34sp" />
 
         <RadioGroup
             android:id="@+id/question_eight_radio_group"
@@ -405,8 +412,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_eight_radio_button_one"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_eight_radio_button_b"
@@ -414,8 +421,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_eight_radio_button_two"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_eight_radio_button_c"
@@ -423,8 +430,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_eight_radio_button_three"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
         </RadioGroup>
 
         <TextView
@@ -438,8 +445,8 @@
             android:paddingRight="25dp"
             android:paddingTop="15dp"
             android:text="@string/question_nine"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="34sp" />
 
         <RadioGroup
             android:id="@+id/question_nine_radio_group"
@@ -454,8 +461,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_nine_radio_button_one"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_nine_radio_button_b"
@@ -463,8 +470,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_nine_radio_button_two"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/question_nine_radio_button_c"
@@ -472,8 +479,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/harry_potter"
                 android:text="@string/question_nine_radio_button_three"
-                android:textColor="@color/harryPotterYellow"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="24sp" />
         </RadioGroup>
 
         <TextView
@@ -487,8 +494,8 @@
             android:paddingRight="25dp"
             android:paddingTop="15dp"
             android:text="@string/question_ten"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="34sp" />
 
         <EditText
             android:id="@+id/question_ten_edit_text"
@@ -500,9 +507,9 @@
             android:fontFamily="@font/harry_potter"
             android:hint="@string/question_ten_hint_text"
             android:inputType="textCapWords"
-            android:textColor="@color/harryPotterYellow"
-            android:textColorHint="@color/harryPotterYellow"
-            android:textSize="20sp" />
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/submit_button"
@@ -514,7 +521,7 @@
             android:fontFamily="@font/harry_potter"
             android:onClick="submitQuiz"
             android:text="@string/submit_button_text"
-            android:textColor="@color/harryPotterYellow"
-            android:textSize="16sp" />
+            android:textColor="@color/white"
+            android:textSize="24sp" />
     </LinearLayout>
 </ScrollView>

@@ -41,4 +41,5 @@
     <string name="question_ten">10. What is the name of the dragon Hagrid acquires?</string>
     <string name="question_ten_hint_text">Type answer here</string>
     <string name="submit_button_text">Submit</string>
+    <string name="harry_potter_emblem">Harry Potter emblem</string>
 </resources>

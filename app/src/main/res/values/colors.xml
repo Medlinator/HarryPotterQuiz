@@ -2,5 +2,6 @@
 <resources>
     <color name="colorPrimary">#F0F0F0</color>
     <color name="colorPrimaryDark">#000000</color>
-    <color name="harryPotterYellow">#f1f31c</color>
+    <color name="harryPotterYellow">#F1F31C</color>
+    <color name="white">#FFFFFF</color>
 </resources>

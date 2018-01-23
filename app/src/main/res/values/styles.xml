@@ -4,9 +4,6 @@
     <style name="SampleTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/harryPotterYellow</item>
-        <item name="android:textColor">@color/harryPotterYellow</item>
-        <item name="android:textColorSecondary">@color/harryPotterYellow</item>
     </style>
 
 </resources>
