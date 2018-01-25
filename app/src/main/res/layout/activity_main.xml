@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- ScrollView so the user can scroll through the entire app. -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,6 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <!-- Harry Potter banner across the top of the app. -->
         <ImageView
             android:id="@+id/harry_potter_emblem_image_view"
             android:layout_width="match_parent"
@@ -17,6 +19,7 @@
             android:scaleType="fitXY"
             android:src="@drawable/harry_potter_emblem" />
 
+        <!-- Quiz title -->
         <TextView
             android:id="@+id/title_text_view"
             android:layout_width="match_parent"
@@ -28,12 +31,14 @@
             android:textColor="@color/harryPotterYellow"
             android:textSize="56sp" />
 
+        <!-- Horizontal line to separate between the title and the quiz questions. -->
         <View
             android:layout_width="275dp"
             android:layout_height="2dp"
             android:layout_gravity="center"
             android:background="@color/harryPotterYellow" />
 
+        <!-- Question one -->
         <TextView
             android:id="@+id/question_one_text_view"
             android:layout_width="match_parent"
@@ -47,6 +52,7 @@
             android:textColor="@color/white"
             android:textSize="34sp" />
 
+        <!-- Question one choices-->
         <RadioGroup
             android:id="@+id/question_one_radio_group"
             android:layout_width="match_parent"
@@ -82,6 +88,7 @@
                 android:textSize="24sp" />
         </RadioGroup>
 
+        <!-- Question two -->
         <TextView
             android:id="@+id/question_two_text_view"
             android:layout_width="match_parent"
@@ -96,6 +103,7 @@
             android:textColor="@color/white"
             android:textSize="34sp" />
 
+        <!-- Question two choices -->
         <RadioGroup
             android:id="@+id/question_two_radio_group"
             android:layout_width="match_parent"
@@ -131,6 +139,7 @@
                 android:textSize="24sp" />
         </RadioGroup>
 
+        <!-- Question three -->
         <TextView
             android:id="@+id/question_three_text_view"
             android:layout_width="match_parent"
@@ -145,6 +154,7 @@
             android:textColor="@color/white"
             android:textSize="34sp" />
 
+        <!-- Question three choices -->
         <RadioGroup
             android:id="@+id/question_three_radio_group"
             android:layout_width="match_parent"
@@ -180,6 +190,7 @@
                 android:textSize="24sp" />
         </RadioGroup>
 
+        <!-- Question four -->
         <TextView
             android:id="@+id/question_four_text_view"
             android:layout_width="match_parent"
@@ -194,6 +205,7 @@
             android:textColor="@color/white"
             android:textSize="34sp" />
 
+        <!-- Question four choices -->
         <RadioGroup
             android:id="@+id/question_four_radio_group"
             android:layout_width="match_parent"
@@ -229,6 +241,7 @@
                 android:textSize="24sp" />
         </RadioGroup>
 
+        <!-- Question five -->
         <TextView
             android:id="@+id/question_five_text_view"
             android:layout_width="match_parent"
@@ -243,6 +256,7 @@
             android:textColor="@color/white"
             android:textSize="34sp" />
 
+        <!-- Question five choices -->
         <CheckBox
             android:id="@+id/question_five_checkbox_a"
             android:layout_width="match_parent"
@@ -287,6 +301,7 @@
             android:textColor="@color/white"
             android:textSize="24sp" />
 
+        <!-- Question six -->
         <TextView
             android:id="@+id/question_six_text_view"
             android:layout_width="match_parent"
@@ -301,6 +316,7 @@
             android:textColor="@color/white"
             android:textSize="34sp" />
 
+        <!-- Question six choices -->
         <RadioGroup
             android:id="@+id/question_six_radio_group"
             android:layout_width="match_parent"
@@ -336,6 +352,7 @@
                 android:textSize="24sp" />
         </RadioGroup>
 
+        <!-- Question seven -->
         <TextView
             android:id="@+id/question_seven_text_view"
             android:layout_width="match_parent"
@@ -350,6 +367,7 @@
             android:textColor="@color/white"
             android:textSize="34sp" />
 
+        <!-- Question seven choices -->
         <RadioGroup
             android:id="@+id/question_seven_radio_group"
             android:layout_width="match_parent"
@@ -385,6 +403,7 @@
                 android:textSize="24sp" />
         </RadioGroup>
 
+        <!-- Question eight -->
         <TextView
             android:id="@+id/question_eight_text_view"
             android:layout_width="match_parent"
@@ -399,6 +418,7 @@
             android:textColor="@color/white"
             android:textSize="34sp" />
 
+        <!-- Question eight choices -->
         <RadioGroup
             android:id="@+id/question_eight_radio_group"
             android:layout_width="match_parent"
@@ -434,6 +454,7 @@
                 android:textSize="24sp" />
         </RadioGroup>
 
+        <!-- Question nine -->
         <TextView
             android:id="@+id/question_nine_text_view"
             android:layout_width="match_parent"
@@ -448,6 +469,7 @@
             android:textColor="@color/white"
             android:textSize="34sp" />
 
+        <!-- Question nine choices -->
         <RadioGroup
             android:id="@+id/question_nine_radio_group"
             android:layout_width="match_parent"
@@ -483,6 +505,7 @@
                 android:textSize="24sp" />
         </RadioGroup>
 
+        <!-- Question ten -->
         <TextView
             android:id="@+id/question_ten_text_view"
             android:layout_width="match_parent"
@@ -497,6 +520,7 @@
             android:textColor="@color/white"
             android:textSize="34sp" />
 
+        <!-- Question ten edit text field-->
         <EditText
             android:id="@+id/question_ten_edit_text"
             android:layout_width="match_parent"
@@ -511,6 +535,7 @@
             android:textColorHint="@color/white"
             android:textSize="24sp" />
 
+        <!-- Button to submit entire quiz -->
         <Button
             android:id="@+id/submit_button"
             android:layout_width="wrap_content"
